@@ -112,15 +112,11 @@ See the [Set up the AWS SDK for Java][docs-setup] section of the developer guide
 ## New Features for 2.0
 
 * Provides a way to plug in your own HTTP implementation.
-
 * Provides first class support for non-blocking IO in Async clients.
 
 ## Building From Source
-
 Once you check out the code from GitHub, you can build it using the following commands.
-
 Linux:
-
 ```sh
 ./mvnw clean install
 
@@ -138,7 +134,6 @@ Windows:
 
 ## Sample Code
 You can find sample code for v2 in the following places:
-
 * [aws-doc-sdk-examples] repo.
 * Integration tests in this repo. They are located in the `it` directory under each service module, eg: [s3-integration-tests]
 
@@ -310,7 +305,6 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     </tr>
   </tbody>
 </table>
-
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
 
